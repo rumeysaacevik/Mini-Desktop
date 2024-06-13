@@ -1,6 +1,6 @@
 # Mini-Desktop
 
-AIM OF THE PROJECT : 
+#AIM OF THE PROJECT : 
 
 The aim of this project is to create a "mini desktop search engine" using the Java programming language. The task a search engine has to do is to search the collection of documents containing the specified keywords and return a list of documents where the keywords are
 
@@ -55,3 +55,14 @@ other classes.
 When the user enters a word in the text box, it searches for the specified key and prints the list of the found node to the JTextArea. 
 
 It traverses the tree according to the options selected from the ComboBox and writes the result to JTextArea. 
+
+![image](https://github.com/rumeysaacevik/Mini-Desktop/assets/169652554/b8439fb7-292d-4272-9557-cd9efcfa8a77)
+
+
+![image](https://github.com/rumeysaacevik/Mini-Desktop/assets/169652554/844adcbc-f57a-4836-be5e-a652fe753c8f)
+
+
+![image](https://github.com/rumeysaacevik/Mini-Desktop/assets/169652554/213ba718-e7b9-4584-84fc-f68d992a7d04)
+
+
+
