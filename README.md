@@ -1,5 +1,7 @@
 # Mini-Desktop
 
+The application we developed as part of the Data Structures course in our second year.
+
 # AIM OF THE PROJECT : 
 
 The aim of this project is to create a "mini desktop search engine" using the Java programming language. The task a search engine has to do is to search the collection of documents containing the specified keywords and return a list of documents where the keywords are
