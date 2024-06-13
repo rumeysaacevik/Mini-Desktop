@@ -1,10 +1,12 @@
 # Mini-Desktop
 
-#AIM OF THE PROJECT : 
+AIM OF THE PROJECT : 
 
 The aim of this project is to create a "mini desktop search engine" using the Java programming language. The task a search engine has to do is to search the collection of documents containing the specified keywords and return a list of documents where the keywords are
 
 found. 
+
+
 
 BSTSearchEngine 
 
@@ -13,6 +15,8 @@ This class updates the contents by reading them with text rules and removes unne
 updateContent(String filePath): Takes the path of the amount of text as parameter and reads the content from the file. Splitting a line of content combines the content, ensuring that the information does not start with "<". Then unnecessary words and changes in the 
 
 specified list are removed and the cleaned content ends. 
+
+
 
 BinarySearchTree 
 
@@ -33,6 +37,7 @@ printTree(): Scans the tree level by level and writes node values and lists to t
 search(String searchData): Searches for the given key and returns the found node. 
 
 
+
 LNode and LinkedList 
 
 These classes represent lists of nodes in the binary search tree. Each node contains the filename of a particular word and the frequency of the word in that file. The LinkedList class holds these nodes and performs their operations. 
@@ -47,6 +52,8 @@ size(): Returns the change of listening.
 
 contains(String fileName): checks whether the name of the specified file is included in the list. 
 
+
+
 MiniSearchEngine 
 This class provides a graphical user interface (GUI). The user can manipulate text files, perform searches, and view results through this interface. This class is used to manage user interaction and provides the functionality of the search engine by interacting with 
 
@@ -55,6 +62,7 @@ other classes.
 When the user enters a word in the text box, it searches for the specified key and prints the list of the found node to the JTextArea. 
 
 It traverses the tree according to the options selected from the ComboBox and writes the result to JTextArea. 
+
 
 ![image](https://github.com/rumeysaacevik/Mini-Desktop/assets/169652554/b8439fb7-292d-4272-9557-cd9efcfa8a77)
 
