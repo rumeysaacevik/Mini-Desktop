@@ -42,19 +42,20 @@ LNode and LinkedList
 
 These classes represent lists of nodes in the binary search tree. Each node contains the filename of a particular word and the frequency of the word in that file. The LinkedList class holds these nodes and performs their operations. 
 
-addFirst(T data, int value): Adds a new node and places it at the beginning of the listen. 
+-addFirst(T data, int value): Adds a new node and places it at the beginning of the listen. 
 
-addLast(T data, int value): Adds a new node and places it until the end of the listen. 
+-addLast(T data, int value): Adds a new node and places it until the end of the listen. 
 
-print(): Prints all elements of the list to the console. 
+-print(): Prints all elements of the list to the console. 
 
-size(): Returns the change of listening. 
+-size(): Returns the change of listening. 
 
-contains(String fileName): checks whether the name of the specified file is included in the list. 
+-contains(String fileName): checks whether the name of the specified file is included in the list. 
 
 
 
 MiniSearchEngine 
+
 This class provides a graphical user interface (GUI). The user can manipulate text files, perform searches, and view results through this interface. This class is used to manage user interaction and provides the functionality of the search engine by interacting with 
 
 other classes. 
